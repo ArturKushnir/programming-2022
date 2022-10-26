@@ -3,26 +3,23 @@
 
 using namespace std;
 
-//люблю єгорку
 int main()
 {
-	int day = 0;
-	cout << "Enter the day" << day;
-	cin >> day;
+  float r = 0.0;
+  cout << "enter the R" << r << endl;
+  cin >> r;
 
-	int month = 0;
-	cout << "Enter the month" << month;
-	cin >> month;
+  float a;
+  a = r * 2 * 3, 14;
 
-	if (day == 1)
-	{
-		cout << "January" << endl;
-	}
+  float b;
+  b = 3, 14 * r * r ;
 
-	else if (day == 2)
-	{
-		cout << "February" << endl;
-	}
+  float c;
+  c = (4 / 3) * (3, 14 * r * r * r);
+
+  cout << "L =" << a << endl;
+  cout << "S =" << b << endl;
+  cout << "V =" << c << endl;
 
 }
-
