@@ -1,0 +1,24 @@
+//обчислити середнє арифметичне двох значень
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    int first = 0;
+    cout << "enter the first number" << first << endl;
+    cin >> first;
+
+    int next = 0;
+    cout << "enter the next number" << next << endl;
+    cin >> next;
+
+    int a;
+    a = (first + next) / 2;
+
+
+        cout << "arithmetic progression = " << a << endl;
+
+    return 0;
+}
