@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//люблю єгорку
 int main()
 {
 	int day = 0;
