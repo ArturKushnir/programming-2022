@@ -23,8 +23,9 @@ int main ()
 		one = n % 10;
 		sum += one;
 		n /= 10;
-
 	}
 	cout << "the sum is " << sum;
-
+	
+	
+	// або x % 10  + x / 10 % 10 + x / 10 / 10
 }
