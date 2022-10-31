@@ -1,0 +1,30 @@
+#include <iostream>
+#include <math.h>
+
+//знайти суму цифр введеного трьохзначного числа 
+
+using namespace std;
+
+int main () 
+{
+
+	cout << "enter number" << endl;
+	double num = 0;
+	cin >> num;
+
+	int n = 0;
+	n = abs(num);
+
+	int one = 0;
+	int two = 0;
+
+	while (n != 0)
+	{
+		one = n % 10;
+		two += one;
+		n /= 10;
+
+	}
+	cout << "the sum is " << two;
+
+}
