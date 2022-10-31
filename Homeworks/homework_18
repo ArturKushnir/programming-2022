@@ -16,15 +16,15 @@ int main ()
 	n = abs(num);
 
 	int one = 0;
-	int two = 0;
+	int sum = 0;
 
 	while (n != 0)
 	{
 		one = n % 10;
-		two += one;
+		sum += one;
 		n /= 10;
 
 	}
-	cout << "the sum is " << two;
+	cout << "the sum is " << sum;
 
 }
